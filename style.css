@@ -8,6 +8,8 @@ header{
     margin: 0;
     padding: 0;
 }
+
+/* banner section start */
 .banner-container{
     width: 80%;
     margin: 0 auto;
@@ -53,4 +55,76 @@ color: rgb(255, 255, 255);
 font-family: "Lato";
 font-size: 1.2rem;
 font-weight: 700;
+}
+/* banner section end */
+
+/* feature section start */
+.feature{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.feature-content{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.feature-content h4{
+    color: rgb(39, 39, 39);
+font-family: "Lato";
+font-size: 2.5rem;
+font-weight: 800;
+}
+.feature-content p{
+    color: rgba(39, 39, 39, 0.6);
+font-family: "Lato";
+font-size: 1rem;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: center;
+margin-top: 15px;
+margin-bottom: 48px;
+}
+.feature-cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.card1{
+    border-radius: 300px 300px 0px 0px;
+padding: 10px;
+background: rgba(167, 33, 98, 0.15);
+height: 440px;
+}
+.card1 img{
+    margin-top: 50px;
+width: 100%;
+height: 100%;
+}
+.cardimg{
+    width: 300px;
+    height: 400px;
+}
+.card2 img{
+    margin-top: 8px;
+    width: 100%;
+height: 100%;
+}
+.card2{
+    border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(5, 151, 160, 0.15);
+    height: 440px;
+}
+.card3{
+    border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+background: rgba(71, 125, 17, 0.15);
+height: 440px;
+}
+.card3 img{
+    margin-top: 9px;
+    width: 100%;
+height: 100%;
 }
