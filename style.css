@@ -95,7 +95,7 @@ margin-bottom: 48px;
     border-radius: 300px 300px 0px 0px;
 padding: 10px;
 background: rgba(167, 33, 98, 0.15);
-height: 440px;
+height: 340px;
 }
 .card1 img{
     margin-top: 50px;
@@ -104,10 +104,10 @@ height: 100%;
 }
 .cardimg{
     width: 300px;
-    height: 400px;
+    height: 300px;
 }
 .card2 img{
-    margin-top: 8px;
+    margin-top: 30px;
     width: 100%;
 height: 100%;
 }
@@ -115,16 +115,1145 @@ height: 100%;
     border-radius: 300px 300px 0px 0px;
     padding: 10px;
     background: rgba(5, 151, 160, 0.15);
-    height: 440px;
+    height: 340px;
 }
 .card3{
     border-radius: 300px 300px 0px 0px;
     padding: 10px;
 background: rgba(71, 125, 17, 0.15);
-height: 440px;
+height: 340px;
 }
 .card3 img{
     margin-top: 9px;
     width: 100%;
 height: 100%;
+}
+
+.card-container{
+    text-align: center;
+}
+.card-container p{
+    margin-top: 10px;
+    color: rgb(39, 39, 39);
+font-family: "Lato";
+font-size: 1.5rem;
+font-weight: 700;
+text-align: center;
+margin-bottom: 20px;
+text-decoration-line: underline;
+}
+
+.delivery{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 8px;
+
+background: rgba(39, 39, 39, 0.05);
+    margin-top: 100px;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.del-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.del-container p{
+    color: rgba(39, 39, 39, 0.8);
+font-family: "Lato";
+font-size: 1rem;
+font-weight: 600;
+text-align: center;
+margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:375px){
+    .banner-container{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        gap: 50px;
+        
+    }
+    .banner-content{
+        margin-top: 90px;
+        width: 40%;
+    }
+    .banner-content h3{
+        color: rgb(39, 39, 39);
+        font-family: "Lato";
+        font-size: 1.6rem;
+        font-weight: 800;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .banner-content p{
+        font-family: "Lato";
+        font-size: 0.5rem;
+        font-weight: 400;
+        color: rgba(39, 39, 39, 0.6);
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .banner-img{
+        width: 60%;
+        height: 250px;
+        margin-top: 70px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    button{
+    padding: 5px 40px 5px 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: 30px;
+    text-align: left;
+    }
+    .feature{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .feature-content{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-content h4{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2.5rem;
+    font-weight: 800;
+    }
+    .feature-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 48px;
+    }
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    }
+    .cardimg{
+        width: 300px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 8px;
+        width: 100%;
+    height: 100%;
+    
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+    .delivery{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+    
+    background: rgba(39, 39, 39, 0.05);
+        margin-top: 100px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .del-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .del-container p{
+        color: rgba(39, 39, 39, 0.8);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    }
+}
+@media screen and (min-width:375px) and (max-width:425px){
+    .banner-container{
+        width: 90%;
+        display: flex;
+        margin: 0 auto;
+        gap: 50px;
+    }
+    .banner-content{
+        margin-top: 90px;
+        width: 40%;
+    }
+    .banner-content h3{
+        color: rgb(39, 39, 39);
+        font-family: "Lato";
+        font-size: 1.6rem;
+        font-weight: 800;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .banner-content p{
+        font-family: "Lato";
+        font-size: 0.5rem;
+        font-weight: 400;
+        color: rgba(39, 39, 39, 0.6);
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .banner-img{
+        width: 60%;
+        height: 250px;
+        margin-top: 70px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    button{
+    padding: 5px 40px 5px 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 0.8rem;
+    font-weight: 700;
+    margin-left: 120px;
+    margin-top: 60px;
+    text-align: left;
+
+    }
+    .feature{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .feature-content{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-content h4{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2.5rem;
+    font-weight: 800;
+    }
+    .feature-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 48px;
+    }
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    }
+    .cardimg{
+        width: 300px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 8px;
+        width: 100%;
+    height: 100%;
+
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+    .delivery{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+    
+    background: rgba(39, 39, 39, 0.05);
+        margin-top: 100px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .del-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .del-container p{
+        color: rgba(39, 39, 39, 0.8);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    }
+}
+
+@media screen and (min-width:425px) and (max-width:576px){
+    .banner-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        gap: 50px;
+    }
+    .banner-content{
+        margin-top: 90px;
+        width: 40%;
+    }
+    .banner-content h3{
+        color: rgb(39, 39, 39);
+        font-family: "Lato";
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .banner-content p{
+        font-family: "Lato";
+        font-size: 0.6rem;
+        font-weight: 400;
+        color: rgba(39, 39, 39, 0.6);
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .banner-img{
+        width: 60%;
+        height: 350px;
+        margin-top: 70px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    button{
+    padding: 5px 40px 5px 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 0.8rem;
+    font-weight: 700;
+    /* margin-left: 120px; */
+    margin-top: 10px;
+    text-align: left;
+
+    }
+    .feature{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .feature-content{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-content h4{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    }
+    .feature-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 48px;
+    }
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 40px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+  
+    }
+    .cardimg{
+        width: 300px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 8px;
+        width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    margin-top: 30px;
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+    .delivery{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+    
+    background: rgba(39, 39, 39, 0.05);
+        margin-top: 100px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .del-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .del-container p{
+        color: rgba(39, 39, 39, 0.8);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    }
+}
+@media screen and (min-width:576px) and (max-width:769px){
+    .banner-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        gap: 50px;
+    }
+    .banner-content{
+        margin-top: 90px;
+        width: 40%;
+    }
+    .banner-content h3{
+        color: rgb(39, 39, 39);
+        font-family: "Lato";
+        font-size: 2rem;
+        font-weight: 800;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .banner-content p{
+        font-family: "Lato";
+        font-size: 0.6rem;
+        font-weight: 400;
+        color: rgba(39, 39, 39, 0.6);
+        margin-bottom: 10px;
+        line-height: 15px;
+    }
+    .banner-img{
+        width: 60%;
+        height: 350px;
+        margin-top: 70px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    button{
+    padding: 5px 40px 5px 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 0.8rem;
+    font-weight: 700;
+    /* margin-left: 120px; */
+    margin-top: 10px;
+    text-align: left;
+
+    }
+    .feature{
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .feature-content{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-content h4{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    }
+    .feature-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 48px;
+    }
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    width: 50%;
+    margin: 0 auto;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    /* margin-left: 50px; */
+    }
+    .cardimg{
+        width: 300px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 8px;
+        width: 100%;
+    height: 100%;
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+        width: 50%;
+    margin: 0 auto;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    width: 50%;
+    margin: 0 auto;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+    .delivery{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+    
+    background: rgba(39, 39, 39, 0.05);
+        margin-top: 100px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .del-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .del-container p{
+        color: rgba(39, 39, 39, 0.8);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    }
+    
+}
+@media screen and (min-width:769px) and (max-width:992px){
+    .banner-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        gap: 100px;
+        
+    }
+    .banner-content{
+        margin-top: 90px;
+        width: 40%;
+    }
+    .banner-content h3{
+        color: rgb(39, 39, 39);
+        font-family: "Lato";
+        font-size: 2.5rem;
+        font-weight: 800;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .banner-content p{
+        font-family: "Lato";
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgba(39, 39, 39, 0.6);
+        margin-bottom: 10px;
+        
+    }
+    .banner-img{
+        width: 60%;
+        height: 350px;
+        margin-top: 100px;
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    button{
+    padding: 5px 40px 5px 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 0.8rem;
+    font-weight: 700;
+    /* margin-left: 120px; */
+    margin-top: 10px;
+    text-align: left;
+
+    }
+    .feature{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .feature-content{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-content h4{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    }
+    .feature-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 48px;
+    }
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    }
+    .cardimg{
+        width: 200px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 8px;
+        width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+        width: 100%;
+    margin: 0 auto;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+    .delivery{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+    
+    background: rgba(39, 39, 39, 0.05);
+        margin-top: 100px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .del-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .del-container p{
+        color: rgba(39, 39, 39, 0.8);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    }
+}
+@media screen and (min-width:992px) and (max-width:1024px){
+    .banner-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        gap: 100px;
+        
+    }
+    .banner-content{
+        margin-top: 90px;
+        width: 40%;
+    }
+    .banner-content h3{
+        color: rgb(39, 39, 39);
+        font-family: "Lato";
+        font-size: 3rem;
+        font-weight: 800;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .banner-content p{
+        font-family: "Lato";
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgba(39, 39, 39, 0.6);
+        margin-bottom: 10px;
+        
+    }
+    .banner-img{
+        width: 60%;
+        
+    }
+    .banner-img img{
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    button{
+    padding: 15px 40px 15px 40px;
+    border-radius: 8px;
+    border: none;
+    background: rgb(229, 84, 115);
+    color: rgb(255, 255, 255);
+    font-family: "Lato";
+    font-size: 0.9rem;
+    font-weight: 700;
+    /* margin-left: 120px; */
+    margin-top: 10px;
+    text-align: left;
+
+    }
+    .feature{
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .feature-content{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .feature-content h4{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    }
+    .feature-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 48px;
+    }
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    }
+    .cardimg{
+        width: 200px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 8px;
+        width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+        width: 100%;
+    margin: 0 auto;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+    .delivery{
+        width: 80%;
+        margin: 0 auto;
+        border-radius: 8px;
+    
+    background: rgba(39, 39, 39, 0.05);
+        margin-top: 100px;
+        display: flex;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .del-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .del-container p{
+        color: rgba(39, 39, 39, 0.8);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+    }
+}
+@media screen and (min-width:1024px) and (max-width:1200px){
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+    }
+    .cardimg{
+        width: 200px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 8px;
+        width: 100%;
+    height: 100%;
+    margin-left: 40px;
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+        width: 100%;
+    margin: 0 auto;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:1400px){
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+   display: flex;
+  margin-left: 40px;
+    }
+    .cardimg{
+        width: 250px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 10px;
+        width: 100%;
+    height: 100%;
+    margin-left: 80px;
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+        width: 100%;
+    margin: 0 auto;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1550px){
+    .feature-cards{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 25px;
+        
+    }
+    .card1{
+        border-radius: 300px 300px 0px 0px;
+    padding: 10px;
+    background: rgba(167, 33, 98, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card1 img{
+        margin-top: 50px;
+    width: 100%;
+    height: 100%;
+   display: flex;
+  margin-left: 40px;
+    }
+    .cardimg{
+        width: 250px;
+        height: 400px;
+    }
+    .card2 img{
+        margin-top: 10px;
+        width: 100%;
+    height: 100%;
+    margin-left: 80px;
+    }
+    .card2{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+        background: rgba(5, 151, 160, 0.15);
+        height: 440px;
+        width: 100%;
+    margin: 0 auto;
+    }
+    .card3{
+        border-radius: 300px 300px 0px 0px;
+        padding: 10px;
+    background: rgba(71, 125, 17, 0.15);
+    height: 440px;
+    width: 100%;
+    margin: 0 auto;
+    }
+    .card3 img{
+        margin-top: 9px;
+        width: 100%;
+    height: 100%;
+    }
 }
