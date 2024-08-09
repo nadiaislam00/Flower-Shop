@@ -169,10 +169,51 @@ font-weight: 600;
 text-align: center;
 margin-top: 10px;
 }
+.sale{
+    width: 100%;
+    border-radius: 8px;
+margin-top: 100px;
+background: rgba(229, 84, 115, 0.05);
 
+}
+.sale-content{
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+}
+.sale-content h3{
+    font-family: "Lato";
+font-size: 2rem;
+font-weight: 800;
+margin-bottom: 30px;
 
+}
+.sale-content p{
+    color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+}
+span{
+    color: rgb(229, 84, 115);
+}
+.sale-content button{
+    margin-top: 40px;
+    padding: 15px 20px 15px 20px;
+}
 
-
+.flower{
+    /* width: 100%; */
+}
+.sale-container{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    /* padding: 20px; */
+}
 
 
 
@@ -309,12 +350,9 @@ margin-top: 10px;
         padding: 20px;
         justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
-    }
-    .del-container{
         display: flex;
         flex-direction: column;
-        align-items: center;
+        gap: 60px;
     }
     .del-container p{
         color: rgba(39, 39, 39, 0.8);
@@ -324,8 +362,21 @@ margin-top: 10px;
     text-align: center;
     margin-top: 10px;
     }
+    .sale-container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        /* padding: 20px; */
+    }
+    .sale-content button{
+        margin-top: 30px;
+        padding: 15px 20px 15px 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
 }
-@media screen and (min-width:375px) and (max-width:425px){
+@media screen and (min-width:375px) and (max-width:426px){
     .banner-container{
         width: 90%;
         display: flex;
@@ -458,12 +509,10 @@ margin-top: 10px;
         justify-content: center;
         align-items: center;
         justify-content: space-evenly;
-    }
-    .del-container{
-        display: flex;
         flex-direction: column;
-        align-items: center;
+        gap: 60px;
     }
+ 
     .del-container p{
         color: rgba(39, 39, 39, 0.8);
     font-family: "Lato";
@@ -472,9 +521,22 @@ margin-top: 10px;
     text-align: center;
     margin-top: 10px;
     }
+    .sale-container{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        /* padding: 20px; */
+    }
+    .sale-content button{
+        margin-top: 30px;
+        padding: 15px 20px 15px 20px;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
 }
 
-@media screen and (min-width:425px) and (max-width:576px){
+@media screen and (min-width:426px) and (max-width:576px){
     .banner-container{
         width: 80%;
         display: flex;
@@ -609,21 +671,56 @@ margin-top: 10px;
         padding: 20px;
         justify-content: center;
         align-items: center;
-        justify-content: space-evenly;
+    
+        gap: 30px;
     }
-    .del-container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+
     .del-container p{
         color: rgba(39, 39, 39, 0.8);
     font-family: "Lato";
-    font-size: 1rem;
+    font-size: 0.7rem;
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
     }
+    .sale-content h3{
+        font-family: "Lato";
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+    
+    }
+    .sale-content p{
+        color: rgba(39, 39, 39, 0.6);
+        font-family: "Lato";
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    span{
+        color: rgb(229, 84, 115);
+    }
+    .sale-content button{
+        margin-top: 40px;
+        padding: 15px 20px 15px 20px;
+        margin-left: 0px;
+    }
+    
+    .flower img{
+        width: 100%;
+        margin-top: 100px;
+    }
+    .sale-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        gap: 50px;
+        /* padding: 20px; */
+    }
+    
+    
 }
 @media screen and (min-width:576px) and (max-width:769px){
     .banner-container{
@@ -714,7 +811,7 @@ margin-top: 10px;
     padding: 10px;
     background: rgba(167, 33, 98, 0.15);
     height: 440px;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     }
     .card1 img{
@@ -731,13 +828,14 @@ margin-top: 10px;
         margin-top: 8px;
         width: 100%;
     height: 100%;
+    margin-left: 40px;
     }
     .card2{
         border-radius: 300px 300px 0px 0px;
         padding: 10px;
         background: rgba(5, 151, 160, 0.15);
         height: 440px;
-        width: 50%;
+        width: 80%;
     margin: 0 auto;
     }
     .card3{
@@ -745,7 +843,7 @@ margin-top: 10px;
         padding: 10px;
     background: rgba(71, 125, 17, 0.15);
     height: 440px;
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
     }
     .card3 img{
@@ -762,9 +860,7 @@ margin-top: 10px;
         margin-top: 100px;
         display: flex;
         padding: 20px;
-        justify-content: center;
-        align-items: center;
-        justify-content: space-evenly;
+      flex: 1;
     }
     .del-container{
         display: flex;
@@ -774,10 +870,46 @@ margin-top: 10px;
     .del-container p{
         color: rgba(39, 39, 39, 0.8);
     font-family: "Lato";
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 600;
     text-align: center;
     margin-top: 10px;
+    }
+    .sale-content h3{
+        font-family: "Lato";
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+    
+    }
+    .sale-content p{
+        color: rgba(39, 39, 39, 0.6);
+        font-family: "Lato";
+        font-size: 0.8rem;
+        font-weight: 400;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+    }
+    span{
+        color: rgb(229, 84, 115);
+    }
+    .sale-content button{
+        margin-top: 20px;
+        padding: 15px 20px 15px 20px;
+        margin-left: 0px;
+    }
+    
+    .flower img{
+        width: 100%;
+        margin-top: 80px;
+    }
+    .sale-container{
+        width: 80%;
+        display: flex;
+        margin: 0 auto;
+        gap: 50px;
+        /* padding: 20px; */
     }
     
 }
