@@ -205,19 +205,69 @@ span{
     padding: 15px 20px 15px 20px;
 }
 
-.flower{
-    /* width: 100%; */
-}
+
 .sale-container{
     width: 80%;
     display: flex;
     margin: 0 auto;
-    /* padding: 20px; */
+   margin-bottom: 80px;
 }
 
-
-
-
+.insta{
+    width: 80%;
+    margin: 0 auto;
+}
+.insta-cards{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  margin-top: 40px;
+}
+.insta-card1{
+    max-width: 250px;
+   
+}
+.insta-card1 img{
+    width: 100%;
+}
+.insta-card2{
+    max-width: 250px;
+    
+}
+.insta-card2 img{
+    width: 100%;
+}
+.insta-card3{
+    max-width: 250px;
+    
+}
+.insta-card3 img{
+    width: 100%;
+}
+.insta-card4{
+    max-width: 250px;
+    
+}
+.insta-card4 img{
+    width: 100%;
+}
+.insta-content h3{
+    color: rgb(39, 39, 39);
+font-family: "Lato";
+font-size: 2.5rem;
+font-weight: 800;
+text-align: center;
+margin-bottom: 30px;
+}
+.insta-content p{
+    color: rgba(39, 39, 39, 0.6);
+font-family: "Lato";
+font-size: 1.2rem;
+font-weight: 400;
+text-align: center;
+width: 70%;
+margin: 0 auto;
+}
 @media screen and (max-width:375px){
     .banner-container{
         width: 90%;
@@ -375,6 +425,29 @@ span{
         margin-left: 0px;
         margin-bottom: 20px;
     }
+    .insta-cards{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 10px;
+        margin-top: 40px;
+      }
+      .insta-content h3{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+    }
+    .insta-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1rem;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    }
 }
 @media screen and (min-width:375px) and (max-width:426px){
     .banner-container{
@@ -526,7 +599,7 @@ span{
         display: flex;
         flex-direction: column;
         margin: 0 auto;
-        /* padding: 20px; */
+       
     }
     .sale-content button{
         margin-top: 30px;
@@ -534,6 +607,15 @@ span{
         margin-left: 0px;
         margin-bottom: 20px;
     }
+    .insta-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin-top: 40px;
+      }
+      .insta-content h3{
+        margin-top: 50px;
+      }
 }
 
 @media screen and (min-width:426px) and (max-width:576px){
@@ -720,7 +802,12 @@ span{
         /* padding: 20px; */
     }
     
-    
+    .insta-cards{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin-top: 40px;
+      }
 }
 @media screen and (min-width:576px) and (max-width:769px){
     .banner-container{
@@ -911,7 +998,15 @@ span{
         gap: 50px;
         /* padding: 20px; */
     }
-    
+      .insta-cards{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 10px;
+        margin-top: 40px;
+      }
+      .insta-content h3{
+        margin-top: 30px;
+      }
 }
 @media screen and (min-width:769px) and (max-width:992px){
     .banner-container{
