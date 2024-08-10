@@ -222,6 +222,7 @@ span{
   grid-template-columns: repeat(4,1fr);
   gap: 10px;
   margin-top: 40px;
+  margin-bottom: 80px;
 }
 .insta-card1{
     max-width: 250px;
@@ -268,6 +269,53 @@ text-align: center;
 width: 70%;
 margin: 0 auto;
 }
+.latest-deals{
+    width: 80%;
+    margin: 0 auto;
+    background-image: url(images/latest-deals-bg.png);
+    background-position: center;
+   
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+.latest-container{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+.latest-content h2{
+    color: rgb(39, 39, 39);
+font-family: "Lato";
+font-size: 2.5rem;
+font-weight: 800;
+text-align: center;
+margin-bottom: 20px;
+}
+.latest-content p{
+    color: rgba(39, 39, 39, 0.6);
+font-family: "Lato";
+font-size: 1.2rem;
+font-weight: 400;
+text-align: center;
+margin-bottom: 20px;
+}
+.submit{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+justify-content: center;
+}
+.submit input{
+    width: 40%;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: rgba(39, 39, 39, 0.6);
+font-family: Lato;
+font-size: 1rem;
+font-weight: 400;
+}
+
 @media screen and (max-width:375px){
     .banner-container{
         width: 90%;
@@ -447,6 +495,52 @@ margin: 0 auto;
     text-align: center;
     width: 100%;
     margin: 0 auto;
+    }
+    .latest-container{
+        padding-top: 100px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .latest-content h2{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .latest-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .submit{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    }
+    .submit input{
+        width: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    }
+    .submit button{
+       padding: 15px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
     }
 }
 @media screen and (min-width:375px) and (max-width:426px){
