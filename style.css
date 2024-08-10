@@ -710,7 +710,55 @@ font-weight: 400;
       .insta-content h3{
         margin-top: 50px;
       }
+      .latest-container{
+        padding-top: 100px;
+        padding-bottom: 70px;
+        text-align: center;
+    }
+    .latest-content h2{
+        color: rgb(39, 39, 39);
+    font-family: "Lato";
+    font-size: 1.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .latest-content p{
+        color: rgba(39, 39, 39, 0.6);
+    font-family: "Lato";
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 20px;
+    }
+    .submit{
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+    }
+    .submit input{
+        width: 100%;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    }
+    .submit button{
+       padding: 15px;
+        width: 50%;
+        margin: 0 auto;
+        text-align: center;
+    }
+  
 }
+
 
 @media screen and (min-width:426px) and (max-width:576px){
     .banner-container{
@@ -902,6 +950,31 @@ font-weight: 400;
         gap: 10px;
         margin-top: 40px;
       }
+      .submit{
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .submit button{
+       margin-top: 0;
+      width: 30%;
+      padding: 20px;
+         text-align: center;
+     }
+     .submit input{
+        width: 60%;
+        border: none;
+        padding: 10px;
+        border-radius: 8px;
+        color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    }
 }
 @media screen and (min-width:576px) and (max-width:769px){
     .banner-container{
