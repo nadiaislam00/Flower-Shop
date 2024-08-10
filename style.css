@@ -316,6 +316,41 @@ font-size: 1rem;
 font-weight: 400;
 }
 
+.footer{
+    background-color: black;
+    width: 100%;
+    margin-top: 50px;
+}
+.footer-container{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px;
+}
+.footer-container h3{
+    color: white;
+    font-family: "Lato";
+font-size: 2.5rem;
+font-weight: 800;
+text-align: center;
+margin-bottom: 20px;
+}
+.footer-container p{
+    color: rgba(220, 216, 216, 0.9);
+    font-family: "Lato";
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.footer-container .copy{
+    color: rgba(255, 252, 252, 0.4);
+font-family: "Lato";
+font-size: 16px;
+font-weight: 400;
+
+text-align: center;
+}
+
 @media screen and (max-width:375px){
     .banner-container{
         width: 90%;
